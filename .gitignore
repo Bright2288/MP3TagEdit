@@ -1,0 +1,38 @@
+# .gitignore for .NET and VS Code
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.swp
+*.log
+*.nupkg
+*.userprefs
+TestResults/
+publish/
+Releases/
+*.zip
+*.exe
+*.msi
+*.aip
+*.aip.settings
+*.DotSettings
+_ReSharper.*/
+packages/
+*.pdb
+*.xml
+appsettings.Development.json
+appsettings.json
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# 临时文件
+temp/
+tmp/
+# 编译输出
+Debug/
+Release/
